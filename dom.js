@@ -21,6 +21,7 @@ function addItem(e) {
 
     if (!newItem.length) {
         alert('You cannot add an empty item');
+
     } else {
         var li = document.createElement('li');
         li.appendChild(document.createTextNode(newItem));
